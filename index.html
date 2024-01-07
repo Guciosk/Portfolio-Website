@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">  
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE-edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>
+            Dominik Kasza Portfolio Website
+        </title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <div id="header">
+            <div class="container">
+                <nav>
+                    <img src="Dom_logo.png" class="logo">
+                    <ul>
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#about">About Me</a></li>
+                        <li><a href="#about">Projects</a></li>
+                        <li><a href="#contact_tab">Contact</a></li>
+                    </ul>
+                </nav>
+                <div class="header-text">
+                    <p>Queens College Student</p>
+                    <h1>Hi, I'm <span>Dominik Kasza</span></h1>
+                </div>
+            </div>
+
+        </div>
+        <!---------------------------------------------About Me---------------------------------------------------->
+        <div id="about">
+            <div class="container">
+                <div class="row">
+                    <div class="about-col-1">
+                        <img src="portrait.jpg" id="portrait">
+                    </div>
+                    <div class="about-col-2">
+                        <h1 class="sub-title">About Me</h1>
+                        <p>
+                            I am currently a third-year student in Queens College<br> pursuing a bachelor's 
+                            degree in Computer Science BS <br>with an expected graduation date of May 2025. 
+                            My knowledge<br> spans across multiple programming languages
+                            including <b>Java,<br> C++,</b>and<b> HTML and CSS.</b>
+                            I have used these languages to<br> construct many projects
+                            to increase my understanding of<br> these languages.
+                        </p>
+                        <div class="tab-titles">
+                            <p class="tab-links active-link" onclick="opentab('skills')"><b>Skills</b></p>
+                            <p class="tab-links" onclick="opentab('work-experience')"><b>Work Experience</b></p>
+                            <p class="tab-links" onclick="opentab('education')"><b>Education</b></p>
+                            <p class="tab-links" onclick="opentab('projects')"><b>Projects</b></p>
+                        </div>
+                        <div class="tab-contents active-tab" id="skills"><!---------------------ALL THE SKILLS------------------------------>
+                            <ul>
+                                <li><span><h2>- Machine Learning</h2></span></li>
+                                <li><span><h2>- Object-Oriented Programming</h2></span></li>
+                                <li><span><h2>- Debugging</h2></span></li>
+                                <li><span><h2>- Data Structures</h2></span></li>
+                                <li><span><h2>- HTML and CSS</h2></span></li>
+                                <li><span><h2>- Java</h2></span></li>
+                                <li><span><h2>- C++</h2></span></li>
+                            </ul>
+                        </div>
+                        <div class="tab-contents" id="work-experience"><!-----------ALL MY EXPERIENCE----------------------------->
+                            <ul>
+                                <li><span>June 2023 - Current</span><br><h3>GAP Retail Associate</h3>
+                                <br>- Actively engaging and connecting with customers to provide<br> excellent customer service
+                                and adapting to marketing<br> techniques to keep customers engaged with promotional offers.</li>
+                                <li><span>June 2021 - September 2022</span><br><h3>SYEP Camp Counselor</h3>
+                                <br>- Ensuring the safety and well-being of the campers while<br> maintaining a 
+                                supportive environment to better the kids<br> experience and to help them learn 
+                                and grow with each<br> other and the counselors.</li>
+                                <li><span>July 2020 - September 2020</span><br><h3>Whistle Virtual Marketing Internship</h3>
+                                <br>- Conducted charts and powerpoints to discuss marketing<br> tactics to 
+                                help inform consumers about new products and<br> worked within a group to 
+                                analyze data that refers to our<br> customers demographic to present to our team leaders.</li>
+                            </ul>
+                        </div>
+                        <div class="tab-contents" id="education"><!---------------ALL MY EDUCATION-------------------->
+                            <ul>
+                                <li><h2>CUNY Queens College <br><span>August 2021 - May 2025</span></h2><br><h3>Term GPA 3.49</h3></li>
+                                <li>- Learning how to solve <b>object-oriented<br> algorithmic problems
+                                    </b> using <b>C++</b> and <b>Java<br></b> with a focus on <b>data structures, memory<br> management, 
+                                    </b>and <b>debugging</b> techniques.
+                                <li>- 2023-2024 course load includes: <b>Algorithms,<br> Fundamental Data Structures, </b>and the<br> 
+                                    <b>Implementation of Programming Languages</b></li>
+                                <li>- Exploring complex problems, learning new<br> languages and algorithms, and understanding<br> each 
+                                    language through trial and error.
+                                </li>
+
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="tab-contents" id="projects"><!-----------------ALL THE PROJECTS------------------->
+                            <ul>
+                                <li><h2><a href="https://github.com/Guciosk" target="_blank"><button class="btn">GAP Inc Data Analysis</button></a></h2></li>
+                                <li><span>- Working at GAP and learning Java at the same time, I<br> conducted a
+                                    project that would intake all the products<br> purchased on my shift and output charts and statistics<br> that
+                                    represented different types of data related to the<br> products purchased.</span></li>
+                                <li><h2><a href="https://github.com/Guciosk" target="_blank"><button class="btn 2">Portfolio Website</button></a></h2></li>
+                                <li><span>- To try and display my strengths in the workforce, I created<br> a website to portray the skills and knowledge 
+                                    I have and<br> can offer. I constructed this website by learning the basics<br> of HTML and CSS while understanding 
+                                    different componenets of<br> both languages to model and design my website. I used various<br> methods to not only 
+                                    layout the website but to also have<br> the website functioning.
+                                </span></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="contact">
+            <hr width = "100%" size="4">
+            <center id="contact_tab">Contact</center>
+                <ul>
+                    <li><a href="https://github.com/Guciosk" target="_blank"><img src="githubwhite.png" id="github"><span><b>Github</b></span></a></li>
+                    <li><a href="https://www.linkedin.com/in/dominik-kasza-399775260/" target="_blank"><img src="linkedin.png" id="linkedin"><span><b>LinkedIn</b></span></a></li>
+                    <li><img src="gmail.png" id="gmail"><span><b>Dominikkas03@gmail.com</b></span></a></li>
+                </ul>
+        </div>
+        <script>
+            var tablinks= document.getElementsByClassName("tab-links");
+            var tabcontents= document.getElementsByClassName("tab-contents");
+            function opentab(tabname){
+                for(tablink of tablinks){
+                    tablink.classList.remove("active-link");
+                }
+                for(tabcontent of tabcontents){
+                    tabcontent.classList.remove("active-tab");
+                }
+                event.currentTarget.classList.add("active-link");
+                document.getElementById(tabname).classList.add("active-tab");
+            }
+        </script>
+
+    </body>
+</html>
